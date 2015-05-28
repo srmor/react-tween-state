@@ -15,7 +15,7 @@ var App = React.createClass({
   count: function() {
     // This is the API you'll probably use 90% of the time.
     this.tweenState('counter', {
-      duration: 500,
+      duration: 10,
       endValue: this.state.counter + 500,
       onEnd: this.count
     });
